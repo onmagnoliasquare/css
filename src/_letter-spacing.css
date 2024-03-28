@@ -14,20 +14,47 @@
 .tracked-tight { letter-spacing: -.05em; }
 .tracked-mega  { letter-spacing:  .25em; }
 
+/* Percentage based tracking */
+.tracked-0 { letter-spacing: 0; }
+.tracked-tight-2 { letter-spacing: -0.11375rem; }
+.tracked-tight-4 { letter-spacing: -0.1525rem; }
+.tracked-tight-6 { letter-spacing: -0.34125rem; }
+.tracked-tight-8 { letter-spacing: -0.685rem; }
+
+.tracked-02 { letter-spacing: 0.0225rem; }
+
 @media (--breakpoint-not-small) {
   .tracked-ns       { letter-spacing:  .1em; }
   .tracked-tight-ns { letter-spacing: -.05em; }
   .tracked-mega-ns  { letter-spacing:  .25em; }
+
+  .tracked-0-ns { letter-spacing: 0; }
+  .tracked-tight-2-ns { letter-spacing: -0.11375rem; }
+  .tracked-tight-4-ns { letter-spacing: -0.1525rem; }
+  .tracked-tight-6-ns { letter-spacing: -0.34125rem; }
+  .tracked-tight-8-ns { letter-spacing: -0.685rem; }
 }
 
 @media (--breakpoint-medium) {
   .tracked-m       { letter-spacing:  .1em; }
   .tracked-tight-m { letter-spacing: -.05em; }
   .tracked-mega-m  { letter-spacing:  .25em; }
+
+  .tracked-0-m { letter-spacing: 0; }
+  .tracked-tight-2-m { letter-spacing: -0.11375rem; }
+  .tracked-tight-4-m { letter-spacing: -0.1525rem; }
+  .tracked-tight-6-m { letter-spacing: -0.34125rem; }
+  .tracked-tight-8-m { letter-spacing: -0.685rem; }
 }
 
 @media (--breakpoint-large) {
   .tracked-l       { letter-spacing:  .1em; }
   .tracked-tight-l { letter-spacing: -.05em; }
   .tracked-mega-l  { letter-spacing:  .25em; }
+
+  .tracked-0-l { letter-spacing: 0; }
+  .tracked-tight-2-l { letter-spacing: -0.11375rem; }
+  .tracked-tight-4-l { letter-spacing: -0.1525rem; }
+  .tracked-tight-6-l { letter-spacing: -0.34125rem; }
+  .tracked-tight-8-l { letter-spacing: -0.685rem; }
 }
