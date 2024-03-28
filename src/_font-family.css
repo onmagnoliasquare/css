@@ -4,7 +4,30 @@
    Docs: http://tachyons.io/docs/typography/font-family/
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
 
+.archivo-oms {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif-oms {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.wdth-875 {
+  font-variation-settings: "wdth" 87.5;
+}
 
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont,
