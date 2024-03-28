@@ -6,6 +6,47 @@
 
 */
 
+/* Set the base font size to 18px rather than 16px. Expressed as a percentage to
+*  respect user's browser accessibility settings.
+*/
+/* View this stackoverflow link to learn why: https: //stackoverflow.com/a/75419468/20087581 */
 html {
   font-size: 112.5%
+}
+
+.block-text {
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+p {
+  line-height: 152%;
+}
+
+.ctgr-100 {
+  font-variation-settings: "CTGR" 100;
+}
+
+.container {
+  hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+p {
+  text-align: justify;
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+ol li {
+  margin-bottom: 1rem;
 }
