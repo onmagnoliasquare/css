@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/patterns
+Hyphenopoly_Loader.js
+Hyphenopoly.js
