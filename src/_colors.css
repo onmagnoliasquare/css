@@ -16,6 +16,8 @@
   /* Writer's Black */
   --black: #090808;
 
+  /* Scale values using Major Third */
+  --near-black: #125;
   --dark-gray:#333;
   --mid-gray:#555;
   --mid-gray:#666;
@@ -141,4 +143,6 @@
 
   --text-color: var(--black);
   --bg-color: var(--white)
+
+}
 }
