@@ -23,8 +23,11 @@
   "devDependencies": {
     "copy-files": "^0.1.0",
     "immutable-css-cli": "^1.1.1",
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.3",
+    "postcss-rtl": "^2.0.0",
+    "tachyons-cli": "^1.3.3",
     "tachyons-modules": "^1.1.10",
-    "tachyons-cli": "^1.3.2",
     "watch": "^1.0.2"
   },
   "contributors": [
@@ -42,11 +45,10 @@
     }
   ],
   "scripts": {
-    "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
-    "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/tachyons.css > css/tachyons.css",
-    "build:minify": "tachyons src/tachyons.css --minify > css/tachyons.min.css",
-    "build:watch": "watch \"npm run build\" ./src/"
-  }
+    "start": "yarn build:watch",
+    "mutations": "yarn immutable-css src/tachyons.css --strict",
+    "build": "./build.sh",
+    "build:watch": "yarn watch 'yarn tachyons src/tachyons.css --preserve-variables > css/tachyons.css && yarn tachyons src/tachyons.css --minify --preserve-variables > css/tachyons.min.css' src/"
+  },
+  "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781"
 }
