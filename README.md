@@ -4,9 +4,9 @@ CSS Tachyons fork for OMS website. This is our custom CSS for the On Magnolia Sq
 
 ## Starting development
 
-In order to start developing, you can use VS Code live server or npm live-server to see updates in real time.
+To start development:
 
-First run `yarn start`, then start the live-server. This will then allow you to see the changes in real time.
+In one terminal run `yarn start` and in another run `yarn dev`. The first command runs the build watching process to autobuild and update the CSS files in css accordingly. The second command starts the vite development server.
 
 ## Why are there two repositories?
 
