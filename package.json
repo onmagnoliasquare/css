@@ -47,7 +47,7 @@
     "start": "yarn build:watch",
     "mutations": "yarn immutable-css src/tachyons.css --strict",
     "build": "./build.sh",
-    "build:watch": "yarn watch 'yarn tachyons src/tachyons.css --preserve-variables > css/tachyons.css && yarn tachyons src/tachyons.css --minify --preserve-variables > css/tachyons.min.css' src/"
+    "build:watch": "yarn watch './build.sh' src/"
   },
   "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781"
 }
