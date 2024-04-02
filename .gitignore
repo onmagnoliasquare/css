@@ -135,6 +135,5 @@ Hyphenopoly_Loader.js
 Hyphenopoly.js
 
 # Build directory
-css/
 css/tachyons.min.css
 css/tachyons.css
