@@ -38,9 +38,14 @@ p {
 }
 
 p {
+  color: var(--text-color);
   text-align: justify;
   display: flex;
   padding-bottom: 1rem;
+}
+
+.bg {
+  background-color: var(--bg-color);
 }
 
 ul li {
